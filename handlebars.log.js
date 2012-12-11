@@ -1,3 +1,4 @@
 Handlebars.registerHelper('log', function(string){
-	return console.log('log', 'handlebars', string) || '';
+	var args = Array.prototype.slice.call(arguments);
+	return console.log('LOG:', args.slice(0, -1)) || '';
 });
