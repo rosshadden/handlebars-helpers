@@ -19,9 +19,7 @@ Note2:  When I made this, I had a tight deadline to complete a lot of things, an
 
 ##log
 
-This is so simple, and yet obviously useful.
-
-Note:  If memory/laziness serve, it only logs one argument.  This is something else I will improve when the need arises.
+This is quite simple, and yet obviously useful.
 
 ----------------
 Let me know what you think!  Or leave me alone.
