@@ -3,7 +3,7 @@ handlebars-helpers
 
 These are a collection of general Handlebars helpers I have made for some projects.  If you don't like them, I invite you to contribute or file an issue.
 
-##IFF
+##iff
 
 I have this one to be especially convenient.
 
