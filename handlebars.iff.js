@@ -34,6 +34,7 @@ Handlebars.registerHelper('iff', function(){
 		"^NOT$|^IS NOT$|^!==$|^!$": function(l, r){ return l != r; },
 		"^OR|\\|\\|$": function(l, r){ return l || r; },
 		"^AND|&&$": function(l, r){ return l && r; },
+		"^MOD|%$": function(l, r){ return !(l % r); },
 		"^<$": function(l, r){ return l < r; },
 		"^>$": function(l, r){ return l > r; },
 		"^<=$": function(l, r){ return l <= r; },
