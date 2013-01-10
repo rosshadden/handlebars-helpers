@@ -45,9 +45,13 @@ Handlebars.registerHelper('iff', function(){
 		"^>=$": function(l, r){ return l >= r; },
 		"^typeof$": function(l, r){ return typeof l == r; },
 		"^IN$|^E$": function(l, r){
+			var isPresent = false;
 			if(typeof r === 'object'){
 				if(r.indexOf && r instanceof Array){
-					return !!~r.indexOf(l);
+					if(/^\d+$/.test(l)){
+						isPresent = !!~r.indexOf(+l) || !!~r.indexOf(''+l);
+					}
+					return isPresent || !!~r.indexOf(l);
 				}else{
 					return l in r;
 				}
