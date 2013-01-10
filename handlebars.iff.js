@@ -45,10 +45,12 @@ Handlebars.registerHelper('iff', function(){
 		"^>=$": function(l, r){ return l >= r; },
 		"^typeof$": function(l, r){ return typeof l == r; },
 		"^IN$|^E$": function(l, r){
-			if(r.indexOf && r instanceof Array){
-				return !!~r.indexOf(l);
-			}else{
-				return l in r;
+			if(typeof r === 'object'){
+				if(r.indexOf && r instanceof Array){
+					return !!~r.indexOf(l);
+				}else{
+					return l in r;
+				}
 			}
 		}
 	};
