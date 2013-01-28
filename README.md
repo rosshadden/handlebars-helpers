@@ -5,7 +5,7 @@ These are a collection of general Handlebars helpers I have made for some projec
 
 ##iff
 
-I have this one to be especially convenient.
+I have found this one to be especially convenient.
 
 Note:  IFF more or less goes against one of the fundamental principles of Handlebars.  Please refrain from bitching about it.
 
