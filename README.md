@@ -15,7 +15,7 @@ Converts something like ```123.1``` to ```$123.10```, with an option to not use 
 
 Note:  This is only USD, as again these are helpers that I use often.  Feel free to make a pull request if you want to handle other currency.
 
-Note2:  When I made this, I had a tight deadline to complete a lot of things, and since all that was expected of me was to add dollar signs in front of text, my management wouldn't have understood my taking tons of time on this helper.  Thus the code is inefficient and pretty much thrown together.  If I'm in an opportunity where it's relevant, I will likely improve it.
+Note2:  When I made this, I had a tight deadline to complete a lot of things, and since all that was expected of me was to add dollar signs in front of text, I couldn't spend tons of time on this helper.  Thus the code is inefficient and pretty much thrown together.  If I'm in an opportunity where it's relevant, I will likely improve it.
 
 ##log
 
