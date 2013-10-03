@@ -1,7 +1,7 @@
-//	Handlebars Equality helper.
-//	{{#iff one}}:  !!one
-//	{{#iff one two}}:  one === two
-//	{{#iff one "[operator]" two}}:  one [operator] two
+// Handlebars equality and comparison helper.
+// {{#iff one}}:  !!one
+// {{#iff one two}}:  one === two
+// {{#iff one "[operator]" two}}:  one [operator] two
 Handlebars.registerHelper('iff', function(){
 	var args = Array.prototype.slice.call(arguments);
 
