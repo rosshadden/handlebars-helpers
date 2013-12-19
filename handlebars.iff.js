@@ -55,6 +55,8 @@ Handlebars.registerHelper('iff', function(){
 				}else{
 					return l in r;
 				}
+			} else if (typeof r === 'string') {
+				return !!~r.indexOf(l);
 			}
 		}
 	};
